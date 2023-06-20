@@ -13,7 +13,10 @@ module.exports = {
       },
       backgroundPosition: {
         'minus-top': '0px -100px'
-      }
+      },
+      animation: {
+        'typing': 'typed '
+      },
     },
   },
   plugins: [],
