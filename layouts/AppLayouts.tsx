@@ -22,7 +22,7 @@ const AppLayouts = ({ children } : { children: any }) => {
   }, [])
 
   return (
-    <div className='bg-slate-200 min-h-[1000px]'>
+    <div className='bg-slate-300 min-h-[1000px]'>
       <Navbar active={activeNav} />
       {children[0] ?? children}
       {children[1]}
